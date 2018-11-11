@@ -1,0 +1,99 @@
+* {
+    margin: 1px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main.container {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.error{
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    padding: 15px 0px;
+}
+input#search-input {
+    height: 50px;
+    padding: 5px;
+    width: 300px;
+    font-size: 26px;
+    font-size: 26px;
+    border: none;
+    background: #5c8cee;
+    text-decoration: none;
+    border-style: solid none;
+    border-color: #93c2f2 #5d8eed #1268be;
+    border-radius: 5px;
+    background: linear-gradient(#5d8eed, #6899f6) #628fed;
+    transition: 0.2s;
+    color: white;
+    text-align: center;
+}
+input#search-input:hover {
+    background: #fbba30;
+    text-decoration: none;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 5px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+    color: white;
+}
+
+button#search-button {
+    height: 50px;
+    padding: 5px;
+    width: 300px;
+    font-size: 26px;
+    border: none;
+    background: #fbba30;
+    text-decoration: none;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 5px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+    color: white;
+}
+button#search-button:hover {
+    border: none;
+    background: #5c8cee;
+    text-decoration: none;
+    border-style: solid none;
+    border-color: #93c2f2 #5d8eed #1268be;
+    border-radius: 5px;
+    background: linear-gradient(#5d8eed, #6899f6) #628fed;
+    transition: 0.2s;
+    color: white;
+    text-align: center;
+    
+}
+.value-title {
+    font-size: 70px;
+}
+.value {
+    font-size: 70px;
+    color: #494848;
+}
+.info-wrapper {
+    max-width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    
+}
+main.container {
+    background: url(../img/weather2.jpg);
+    background-size: cover;
+}
+main.container {
+    background: url(../img/weather2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
