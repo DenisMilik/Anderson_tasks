@@ -42,7 +42,6 @@ input#search-input:hover {
     border-color: #FDBE33 #000 #D77206;
     border-radius: 5px;
     background: linear-gradient(#F3AE0F, #E38916) #E38916;
-    transition: 0.2s;
     color: white;
 }
 
